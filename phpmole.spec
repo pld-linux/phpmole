@@ -1,7 +1,7 @@
 # TODO: applnk
 
-Summary:	PhpMole - integrated development enviroment for web and phpgtk based applications
-Summary:	PhpMole - zintegrowane ¶rodowisko programisty do applikacji WWW i opartych o phpgtk
+Summary:	PhpMole - integrated development enviroment for web and PHP-GTK based applications
+Summary:	PhpMole - zintegrowane ¶rodowisko programisty do applikacji WWW i opartych o PHP-GTK
 Name:		phpmole
 Version:	1.3.1
 Release:	1
@@ -23,8 +23,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 PhpMole is an integrated development enviroment for developing
-(primarily) web based and phpgtk based applications. It grew out of
-porting Moleskine to php when Andrei (who wrote php-gtk) released
+(primarily) web based and PHP-GTK based applications. It grew out of
+porting Moleskine to PHP when Andrei (who wrote PHP-GTK) released
 bindings for the scintilla widget. Since then it has got out of
 control!
 
@@ -34,9 +34,9 @@ bag...
 
 %description -l pl
 PhpMole jest zintegrowanym ¶rodowiskiem programisty (IDE) s³u¿±cym
-(przede wszystkim) do tworzenia aplikacji WWW i opartych o phpgtk.
-Powsta³ on w wyniku migracji Moleskine do php dokonanej, gdy Andrei
-(który napisa³ php-gtk) wypu¶ci³ sterownik do kontrolki scintilla. W
+(przede wszystkim) do tworzenia aplikacji WWW i opartych o PHP-GTK.
+Powsta³ on w wyniku migracji Moleskine do PHP dokonanej, gdy Andrei
+(który napisa³ PHP-GTK) wypu¶ci³ sterownik do kontrolki scintilla. W
 tamtym momencie wymkn±³ siê on spod kontroli!
 
 Prostymi s³owami, PHPMole stanowi skrzy¿owanie Dreamweavera i MS
