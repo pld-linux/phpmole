@@ -8,6 +8,7 @@ Release:	1
 License:	GPL
 Group:		X11/Development/Tools
 Source0:	http://dl.sourceforge.net/phpmole-ide/%{name}-%{version}.tgz
+# Source0-md5:	e8b80562fcd718f6f0e54baf5c5744f1
 URL:		http://www.akbkhome.com/Projects/Phpmole-IDE/
 # or should it be php-cli? but php.cli binary should be used then
 Requires:	php-cgi
