@@ -6,7 +6,7 @@ Version:	1.3.1
 Release:	1
 License:	GPL
 Group:		X11/Development/Tools
-Source0:	%{name}-%{version}.tgz
+Source0:	http://dl.sourceforge.net/phpmole-ide/%{name}-%{version}.tgz
 URL:		http://www.akbkhome.com/Projects/Phpmole-IDE/
 Requires:	php-gtk
 Requires:	php-dba
