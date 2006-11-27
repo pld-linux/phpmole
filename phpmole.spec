@@ -1,5 +1,4 @@
 # TODO: applnk
-
 Summary:	PhpMole - integrated development enviroment for web and PHP-GTK based applications
 Summary:	PhpMole - zintegrowane ¶rodowisko programisty do applikacji WWW i opartych o PHP-GTK
 Name:		phpmole
@@ -10,14 +9,13 @@ Group:		X11/Development/Tools
 Source0:	http://dl.sourceforge.net/phpmole-ide/%{name}-%{version}.tgz
 # Source0-md5:	e8b80562fcd718f6f0e54baf5c5744f1
 URL:		http://www.akbkhome.com/Projects/Phpmole-IDE/
-# or should it be php-cli? but php.cli binary should be used then
-Requires:	php-cgi
-Requires:	php-curl
-Requires:	php-dba
-Requires:	php-gtk
-Requires:	php-imap
-Requires:	php-pecl-imagick
-Requires:	php-sockets
+Requires:	php4-cli
+Requires:	php4-curl
+Requires:	php4-dba
+Requires:	php4-gtk
+Requires:	php4-imap
+Requires:	php4-pecl-imagick
+Requires:	php4-sockets
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -46,19 +44,18 @@ narzêdziami do obrazków...
 %prep
 %setup -q -n %{name}
 
+rm -f phpmole.exe
+
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_bindir}
-install -d $RPM_BUILD_ROOT%{_datadir}/%{name}
-
-rm -rf phpmole.exe
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/%{name}}
 
 cp -rf * $RPM_BUILD_ROOT%{_datadir}/%{name}
 
 cat <<EOF > $RPM_BUILD_ROOT%{_bindir}/%{name}
 #!/bin/sh
 cd %{_datadir}/%{name}
-php phpmole-ide.php
+exec /usr/bin/php4.cli phpmole-ide.php
 EOF
 
 %clean
