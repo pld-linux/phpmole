@@ -1,6 +1,6 @@
 # TODO: applnk
 Summary:	PhpMole - integrated development enviroment for web and PHP-GTK based applications
-Summary(pl):	PhpMole - zintegrowane ∂rodowisko programisty do applikacji WWW i opartych o PHP-GTK
+Summary(pl.UTF-8):   PhpMole - zintegrowane ≈õrodowisko programisty do applikacji WWW i opartych o PHP-GTK
 Name:		phpmole
 Version:	1.3.1
 Release:	1
@@ -30,16 +30,16 @@ In simple words PHPMole is Dreamweaver crossed with MS Visual Studio,
 with a Content Mangement interface and Image tools thrown into the
 bag...
 
-%description -l pl
-PhpMole jest zintegrowanym ∂rodowiskiem programisty (IDE) s≥uø±cym
+%description -l pl.UTF-8
+PhpMole jest zintegrowanym ≈õrodowiskiem programisty (IDE) s≈Çu≈ºƒÖcym
 (przede wszystkim) do tworzenia aplikacji WWW i opartych o PHP-GTK.
-Powsta≥ on w wyniku migracji Moleskine do PHP dokonanej, gdy Andrei
-(ktÛry napisa≥ PHP-GTK) wypu∂ci≥ sterownik do kontrolki scintilla. W
-tamtym momencie wymkn±≥ siÍ on spod kontroli!
+Powsta≈Ç on w wyniku migracji Moleskine do PHP dokonanej, gdy Andrei
+(kt√≥ry napisa≈Ç PHP-GTK) wypu≈õci≈Ç sterownik do kontrolki scintilla. W
+tamtym momencie wymknƒÖ≈Ç siƒô on spod kontroli!
 
-Prostymi s≥owami, PHPMole stanowi skrzyøowanie Dreamweavera i MS
+Prostymi s≈Çowami, PHPMole stanowi skrzy≈ºowanie Dreamweavera i MS
 Visual Studio z dorzuconymi: interfejsem "Content Mangement" i
-narzÍdziami do obrazkÛw...
+narzƒôdziami do obrazk√≥w...
 
 %prep
 %setup -q -n %{name}
