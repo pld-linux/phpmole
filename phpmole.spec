@@ -1,6 +1,6 @@
 # TODO: applnk
 Summary:	PhpMole - integrated development enviroment for web and PHP-GTK based applications
-Summary(pl.UTF-8):   PhpMole - zintegrowane środowisko programisty do applikacji WWW i opartych o PHP-GTK
+Summary(pl.UTF-8):	PhpMole - zintegrowane środowisko programisty do applikacji WWW i opartych o PHP-GTK
 Name:		phpmole
 Version:	1.3.1
 Release:	1
