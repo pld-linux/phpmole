@@ -8,7 +8,7 @@ License:	GPL
 Group:		X11/Development/Tools
 Source0:	http://dl.sourceforge.net/phpmole-ide/%{name}-%{version}.tgz
 # Source0-md5:	e8b80562fcd718f6f0e54baf5c5744f1
-URL:		http://www.akbkhome.com/Projects/Phpmole-IDE/
+URL:		http://www.akbkhome.com/wiki.php/phpmole_IDE/index.html
 Requires:	php4-cli
 Requires:	php4-curl
 Requires:	php4-dba
