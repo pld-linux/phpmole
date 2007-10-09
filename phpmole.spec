@@ -1,5 +1,5 @@
 # TODO: applnk
-Summary:	PhpMole - integrated development enviroment for web and PHP-GTK based applications
+Summary:	PhpMole - integrated development environment for web and PHP-GTK based applications
 Summary(pl.UTF-8):	PhpMole - zintegrowane środowisko programisty do applikacji WWW i opartych o PHP-GTK
 Name:		phpmole
 Version:	1.3.1
@@ -20,7 +20,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-PhpMole is an integrated development enviroment for developing
+PhpMole is an integrated development environment for developing
 (primarily) web based and PHP-GTK based applications. It grew out of
 porting Moleskine to PHP when Andrei (who wrote PHP-GTK) released
 bindings for the scintilla widget. Since then it has got out of
